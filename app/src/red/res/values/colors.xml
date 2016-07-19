@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/md_pink_500</color>
+    <color name="colorPrimaryDark">@color/md_pink_900</color>
+    <color name="textColorPrimary">@color/md_pink_600</color>
+
+    <color name="searchview_bkg">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/adapters/PhotoAdapter.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/network/NetworkManagerFlickr.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/utils/AppController.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/utils/DialogManager.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/utils/Events.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/it/to/peppesca/flickrtest/views/RelativeLayoutCustom.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_row_photo.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/shadow.xml" charset="ISO-8859-1" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

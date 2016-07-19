@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="RelativeLayoutNoProducts">
+        <attr name="textToShow" format="string" />
+    </declare-styleable>
+</resources>

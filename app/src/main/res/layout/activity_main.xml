@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flPhotoByTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/svPhotoByTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/searchview_bkg"
+            android:goIcon="@android:drawable/ic_delete"
+            android:gravity="end"
+            android:queryHint="@string/search_hint"
+            android:searchIcon="@drawable/flickr_logo" />
+    </FrameLayout>
+
+    <it.to.peppesca.flickrtest.views.RelativeLayoutCustom xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rl_custom_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        custom:textToShow="No photos to show!">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvLocations"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:visibility="gone" />
+
+    </it.to.peppesca.flickrtest.views.RelativeLayoutCustom>
+
+    <RelativeLayout
+        android:id="@+id/rl_starting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_logo_flickr"
+            android:layout_width="@dimen/small_size"
+            android:layout_height="@dimen/small_size"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/tv_initial"
+            android:layout_margin="@dimen/detail_margin_bottom"
+            android:src="@drawable/flickr_logo" />
+
+        <TextView
+            android:id="@+id/tv_initial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/search_on_flickr" />
+    </RelativeLayout>
+</LinearLayout>
